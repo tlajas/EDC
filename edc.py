@@ -88,7 +88,7 @@ s_implica_t_e_u_ou_t_ou_ns()
 if tv_s_implica_t_e_u_ou_t_ou_ns == tv_s_implica_t:
     print ('A tabela de verdade de (s -> t) ∧ u ∨ t ∨ ¬s: ', tv_s_implica_t_e_u_ou_t_ou_ns)
     print ('A tabela de verdade de (s -> t):              ', tv_s_implica_t)
-    print('Podemos então confirmar que ((s -> t) ∧ u ∨ t ∨ ¬s) ≡ (s -> t) ')
+    print('Podemos então confirmar que (s -> t) ∧ u ∨ t ∨ ¬s ≡ (s -> t)')
 
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------#

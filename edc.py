@@ -89,12 +89,10 @@ if tv_s_implica_t_e_u_ou_t_ou_ns == tv_s_implica_t:
     print ('A tabela de verdade de (s -> t) ∧ u ∨ t ∨ ¬s: ', tv_s_implica_t_e_u_ou_t_ou_ns)
     print ('A tabela de verdade de (s -> t):              ', tv_s_implica_t)
     print('Podemos então confirmar que (s -> t) ∧ u ∨ t ∨ ¬s ≡ (s -> t)')
-
-
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
-##Exercicio 3a (Sem Recursividade)
-#
+#Exercicio 3a (Sem Recursividade)
+
 #def mdc1(x, y):
 #    while y is not 0:
 #        resto = x % y
@@ -104,8 +102,8 @@ if tv_s_implica_t_e_u_ou_t_ou_ns == tv_s_implica_t:
 #
 #n1 = int(input('Insira o primeiro número: '))
 #n2 = int(input('Insira o segundo número: ')) 
-#print(mdc1(n1,n2))
-#
+#print('O máximo divisor comum entre os números', n1, 'e', n2, 'é', mdc1(n1,n2))
+
 ##Exercicio 3b (Com recursividade)
 #
 #def mdc2 (x,y): 
@@ -122,26 +120,31 @@ if tv_s_implica_t_e_u_ou_t_ou_ns == tv_s_implica_t:
 
 ##Exercicio 4 
 #
-#def forPrimo(x):
+#def primo(x):
 #    for divisor in range(2, x):
-#        if x%divisor == 0:
+#        if x % divisor == 0:
 #            return False
 #    else: 
 #        return True
 #
-#def fatorizacao(x):
-#    FatoresPrimos = []
+#def fatorizar(x):
 #    divisor = 2
+#    primos = []
 #    while x > 1:
-#        if forPrimo(divisor):
+#        if primo(divisor):
 #            if x % divisor == 0:
 #                x = x / divisor
-#                FatoresPrimos.append(divisor)
+#                primos.append(divisor)
 #            else:
 #                divisor += 1
 #        else:
 #            divisor += 1
-#    return FatoresPrimos
+#    print('Os fatores primos do número', num, 'são:', primos)
+#
+#num = input('Introduza um número: ')
+#fatorizar(int(num))
+
+
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
